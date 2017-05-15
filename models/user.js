@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcryptjs');
-
+//https://www.youtube.com/watch?v=OnuC3VtEQks 
 // User Schema
 var UserSchema = mongoose.Schema({
 	username: {
@@ -16,7 +16,7 @@ var UserSchema = mongoose.Schema({
 	name: {
 		type: String
 	}
-});
+}); //schema
 
 var User = module.exports = mongoose.model('User', UserSchema);
 
